@@ -1,0 +1,29 @@
+BRAUZER CACHE'INI TOZALASH
+
+Agar K, M va / harflari ko'rinmasa:
+
+1. HARD REFRESH (Eng oson):
+   - Chrome/Edge: Ctrl + Shift + R
+   - Firefox: Ctrl + Shift + R
+   - Safari: Cmd + Shift + R
+
+2. CACHE TO'LIQCHA TOZALASH:
+   - Chrome/Edge: Ctrl + Shift + Delete
+   - "Cached images and files" ni belgilang
+   - "Clear data" bosing
+
+3. INCOGNITO/PRIVATE MODE:
+   - Ctrl + Shift + N (Chrome/Edge)
+   - Ctrl + Shift + P (Firefox)
+   - Saytni shu yerda oching
+
+4. TEST SAHIFA:
+   - test-stats.html ni oching
+   - Agar u yerda ko'rinsa, asosiy saytda cache muammosi
+
+5. BOSHQA BRAUZER:
+   - Firefox, Chrome yoki Edge'da sinab ko'ring
+
+AGAR HALI HAM KO'RINMASA:
+- Font muammosi bo'lishi mumkin
+- Menga screenshot yuboring
