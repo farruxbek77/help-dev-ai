@@ -1344,9 +1344,9 @@ footer {
 }
 
 /* Premium Feature Cards */
-.premium-feature {
-    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
-    border: 2px solid #e9d5ff;
+.premium-features-section .feature-card.premium-feature {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%) !important;
+    border: 2px solid #e9d5ff !important;
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
@@ -1355,7 +1355,7 @@ footer {
     text-align: center;
 }
 
-.premium-feature::before {
+.premium-features-section .feature-card.premium-feature::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1368,32 +1368,33 @@ footer {
     z-index: 0;
 }
 
-.premium-feature:hover::before {
+.premium-features-section .feature-card.premium-feature:hover::before {
     opacity: 0.05;
 }
 
-.premium-feature:hover {
+.premium-features-section .feature-card.premium-feature:hover {
     transform: translateY(-10px);
-    border-color: #7c3aed;
+    border-color: #7c3aed !important;
     box-shadow: 0 20px 40px rgba(124, 58, 237, 0.2);
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%) !important;
 }
 
-.premium-feature .feature-icon,
-.premium-feature h3,
-.premium-feature p {
+.premium-features-section .feature-card.premium-feature .feature-icon,
+.premium-features-section .feature-card.premium-feature h3,
+.premium-features-section .feature-card.premium-feature p {
     position: relative;
     z-index: 1;
 }
 
-.premium-feature h3 {
-    color: #4c1d95;
+.premium-features-section .feature-card.premium-feature h3 {
+    color: #4c1d95 !important;
     font-size: 1.3rem;
     margin-bottom: 0.8rem;
     font-weight: 700;
 }
 
-.premium-feature p {
-    color: #6b7280;
+.premium-features-section .feature-card.premium-feature p {
+    color: #6b7280 !important;
     line-height: 1.6;
 }
 
@@ -1548,4 +1549,54 @@ footer {
     .premium-card.featured {
         transform: scale(1);
     }
+}
+
+
+/* PREMIUM CARDS OVERRIDE - BINAFSHA RANGLAR */
+.pricing .premium-card {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%) !important;
+    border: 2px solid #e9d5ff !important;
+}
+
+.pricing .premium-card:hover {
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%) !important;
+    border-color: #7c3aed !important;
+}
+
+.pricing .premium-card .card-header {
+    border-bottom-color: #e9d5ff !important;
+}
+
+.pricing .premium-card .card-header h3 {
+    color: #4c1d95 !important;
+}
+
+.pricing .premium-card .card-subtitle {
+    color: #6b7280 !important;
+}
+
+.pricing .premium-card .price-amount {
+    color: #7c3aed !important;
+}
+
+.pricing .premium-card .price-currency {
+    color: #9ca3af !important;
+}
+
+.pricing .premium-card .features-list li {
+    color: #6b7280 !important;
+    border-bottom-color: #e9d5ff !important;
+}
+
+.pricing .premium-card.featured {
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%) !important;
+    border-color: #5b21b6 !important;
+}
+
+.pricing .premium-card.featured .card-header h3,
+.pricing .premium-card.featured .card-subtitle,
+.pricing .premium-card.featured .price-amount,
+.pricing .premium-card.featured .price-currency,
+.pricing .premium-card.featured .features-list li {
+    color: #fff !important;
 }
