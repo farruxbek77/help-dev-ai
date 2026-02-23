@@ -1600,3 +1600,24 @@ footer {
 .pricing .premium-card.featured .features-list li {
     color: #fff !important;
 }
+
+
+/* FEATURES SECTION OVERRIDE - BINAFSHA RANGLAR */
+.features .feature-card {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%) !important;
+    border: 2px solid #e9d5ff !important;
+}
+
+.features .feature-card:hover {
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%) !important;
+    border-color: #7c3aed !important;
+    box-shadow: 0 15px 40px rgba(124, 58, 237, 0.2) !important;
+}
+
+.features .feature-card h3 {
+    color: #4c1d95 !important;
+}
+
+.features .feature-card p {
+    color: #6b7280 !important;
+}
