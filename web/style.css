@@ -1262,7 +1262,7 @@ footer {
 
 /* Premium Hero */
 .premium-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
     padding: 100px 0 80px;
     position: relative;
     overflow: hidden;
@@ -1345,8 +1345,8 @@ footer {
 
 /* Premium Feature Cards */
 .premium-feature {
-    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
-    border: 2px solid transparent;
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+    border: 2px solid #e9d5ff;
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
@@ -1359,7 +1359,7 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
     opacity: 0;
     transition: opacity 0.4s ease;
     z-index: 0;
@@ -1384,8 +1384,8 @@ footer {
 
 /* Premium Price Cards */
 .premium-card {
-    background: #fff;
-    border: 2px solid #e5e7eb;
+    background: #ffffff;
+    border: 2px solid #e9d5ff;
     transition: all 0.3s ease;
 }
 
@@ -1398,12 +1398,12 @@ footer {
 .card-header {
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #f3f4f6;
+    border-bottom: 2px solid #f3e8ff;
 }
 
 .card-header h3 {
     font-size: 1.8rem;
-    color: #1f2937;
+    color: #4c1d95;
     margin-bottom: 8px;
 }
 
@@ -1429,7 +1429,7 @@ footer {
 
 .price-currency {
     font-size: 1.1rem;
-    color: #6b7280;
+    color: #9ca3af;
     font-weight: 500;
 }
 
@@ -1441,9 +1441,9 @@ footer {
 
 .premium-card .features-list li {
     padding: 12px 0;
-    color: #4b5563;
+    color: #6b7280;
     font-size: 0.95rem;
-    border-bottom: 1px solid #f3f4f6;
+    border-bottom: 1px solid #f3e8ff;
 }
 
 .premium-card .features-list li:last-child {
@@ -1451,8 +1451,8 @@ footer {
 }
 
 .premium-card.featured {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-color: #764ba2;
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+    border-color: #5b21b6;
     transform: scale(1.05);
 }
 
@@ -1460,6 +1460,10 @@ footer {
 .premium-card.featured .card-subtitle,
 .premium-card.featured .features-list li {
     color: #fff;
+}
+
+.premium-card.featured .card-header {
+    border-bottom-color: rgba(255, 255, 255, 0.2);
 }
 
 .premium-card.featured .price-amount {
@@ -1484,14 +1488,14 @@ footer {
     text-align: center;
     margin-top: 50px;
     padding: 25px;
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
     border-radius: 15px;
-    border: 2px solid #bae6fd;
+    border: 2px solid #e9d5ff;
 }
 
 .pricing-note p {
     margin: 0;
-    color: #0c4a6e;
+    color: #5b21b6;
     font-size: 1.1rem;
     font-weight: 500;
 }
