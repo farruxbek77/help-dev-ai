@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bot Generator - Professional Sayt va Kod Yaratish</title>
+    <title>Help Developer - Professional Sayt va Kod Yaratish</title>
     <link rel="stylesheet" href="bustshop-style.css">
 </head>
 
@@ -12,26 +12,27 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="header-content"></div>
-            <div class="logo">
-                <div class="logo-icon">⚡</div>
-                <span>BotGenerator</span>
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">⚡</div>
+                    <span>Help Developer</span>
+                </div>
+                <nav class="nav">
+                    <a href="#services">Xizmatlar</a>
+                    <a href="#features">Afzalliklar</a>
+                    <a href="#pricing">Narxlar</a>
+                </nav>
+                <div class="header-buttons">
+                    <a href="https://t.me/FrontendBackendUz" class="btn-outline">Kirish</a>
+                    <a href="https://t.me/helpdev_ai_bot" class="btn-primary">Boshlash</a>
+                </div>
             </div>
-            <nav class="nav">
-                <a href="#services">Xizmatlar</a>
-                <a href="#features">Afzalliklar</a>
-                <a href="#pricing">Narxlar</a>
-            </nav>
-            <div class="header-buttons">
-                <a href="https://t.me/FrontendBackendUz" class="btn-outline">Kirish</a>
-                <a href="https://t.me/helpdev_ai_bot" class="btn-primary">Boshlash</a>
-            </div>
-        </div>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
+        <canvas id="particleCanvas"></canvas>
         <div class="stars"></div>
         <div class="container">
             <div class="hero-grid">
@@ -39,91 +40,24 @@
                     <div class="badge">⚡ Tez. Ishonchli. Hamyonbop.</div>
                     <h1 class="hero-title">
                         Sayt va kod yaratish
-                        <span class="gradient-text">qulay</span> va tez
+                        <span class="gradient-text">qulay va tez</span>
                     </h1>
                     <p class="hero-description">
-                        Telegram bot orqali HTML, Portfolio, Blog, Biznes saytlar va
-                        Python, JavaScript, Java kodlarini eng hamyonbop narxlarda oling
+                        Telegram bot orqali HTML, Portfolio, Blog, Biznes saytlar va Python, JavaScript, Java kodlarini
+                        eng hamyonbop narxlarda oling
                     </p>
                     <div class="hero-buttons">
                         <a href="https://t.me/helpdev_ai_bot" class="btn-hero">
-                            🛒 Buyurtma berish
-                        </a>
-                        <a href="https://t.me/FrontendBackendUz" class="btn-telegram">
-                            📱 Telegram kanalimiz
+                            Telegram kanalimiz
                         </a>
                     </div>
                 </div>
                 <div class="hero-right">
                     <div class="character">
                         <div class="character-glow"></div>
-                        <div class="robot">🤖</div>
+                        <img src="https://bustshop.uz/_next/image?url=%2Fmascot.png&w=828&q=75" alt="Character"
+                            class="character-image">
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services -->
-    <section class="services" id="services">
-        <div class="container">
-            <h2 class="section-title">Bizning <span class="gradient-text">xizmatlarimiz</span></h2>
-            <p class="section-subtitle">Tez va professional yechimlar</p>
-
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🌐</div>
-                    <h3>Sayt yaratish</h3>
-                    <p>HTML, Portfolio, Blog, Biznes, Landing page</p>
-                    <div class="service-price">Bepul</div>
-                    <a href="https://t.me/helpdev_ai_bot" class="btn-service">Yaratish</a>
-                </div>
-
-                <div class="service-card featured">
-                    <div class="popular-badge">🔥 Mashhur</div>
-                    <div class="service-icon">💻</div>
-                    <h3>Kod namunalari</h3>
-                    <p>Python, JavaScript, HTML/CSS, Java, C++</p>
-                    <div class="service-price">Bepul</div>
-                    <a href="https://t.me/helpdev_ai_bot" class="btn-service">Olish</a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">🎨</div>
-                    <h3>Professional dizayn</h3>
-                    <p>Zamonaviy va chiroyli dizaynlar</p>
-                    <div class="service-price">Bepul</div>
-                    <a href="https://t.me/helpdev_ai_bot" class="btn-service">Ko'rish</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features -->
-    <section class="features" id="features">
-        <div class="container">
-            <h2 class="section-title">Nima uchun <span class="gradient-text">biz?</span></h2>
-
-            <div class="features-grid">
-                <div class="feature-box">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Tez yaratish</h3>
-                    <p>Bir necha daqiqada tayyor</p>
-                </div>
-                <div class="feature-box">
-                    <div class="feature-icon">✨</div>
-                    <h3>Professional</h3>
-                    <p>Yuqori sifatli dizayn</p>
-                </div>
-                <div class="feature-box">
-                    <div class="feature-icon">�</div>
-                    <h3>Xavfsiz</h3>
-                    <p>100% ishonchli xizmat</p>
-                </div>
-                <div class="feature-box">
-                    <div class="feature-icon">💰</div>
-                    <h3>Bepul</h3>
-                    <p>Cheksiz foydalanish</p>
                 </div>
             </div>
         </div>
@@ -132,22 +66,203 @@
     <!-- Stats -->
     <section class="stats">
         <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Foydalanuvchi</div>
+            <div class="stats-card">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Foydalanuvchilar</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1M+</div>
+                        <div class="stat-label">Buyurtmalar</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Qo'llab-quvvatlash</div>
+                    </div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">15+</div>
-                    <div class="stat-label">Loyiha</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Marquee -->
+    <section class="brands">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span>• JavaScript</span>
+                <span>• Portfolio</span>
+                <span>• Blog</span>
+                <span>• Biznes</span>
+                <span>• HTML</span>
+                <span>• Python</span>
+                <span>• JavaScript</span>
+                <span>• Portfolio</span>
+                <span>• Blog</span>
+                <span>• Biznes</span>
+                <span>• HTML</span>
+                <span>• Python</span>
+                <span>• JavaScript</span>
+                <span>• Portfolio</span>
+                <span>• Blog</span>
+                <span>• Biznes</span>
+                <span>• HTML</span>
+                <span>• Python</span>
+                <span>• JavaScript</span>
+                <span>• Portfolio</span>
+                <span>• Blog</span>
+                <span>• Biznes</span>
+                <span>• HTML</span>
+                <span>• Python</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Oddiy va tez</div>
+                <h2 class="section-title">Qanday ishlaydi?</h2>
+                <p class="section-subtitle">Atiga 3 bosqichda buyurtma bering</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon"></div>
+                    <h3>Botni boshlang</h3>
+                    <p>Telegram botimizga o'ting va /start buyrug'ini yuboring. 30 soniyada tayyor!</p>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Qo'llab-quvvatlash</div>
+                <div class="step-separator">›</div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon"></div>
+                    <h3>Sayt turini tanlang</h3>
+                    <p>HTML, Portfolio, Blog, Biznes yoki kod namunalaridan birini tanlang</p>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Bepul</div>
+                <div class="step-separator">›</div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon"></div>
+                    <h3>Ma'lumot kiriting</h3>
+                    <p>Sayt nomi, rang va tavsifni kiriting. Tayyor saytni oling. Tez va oson!</p>
+                </div>
+            </div>
+
+            <div class="cta-center">
+                <a href="https://t.me/helpdev_ai_bot" class="btn-hero">Hoziroq boshlash</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bizning afzalliklarimiz</h2>
+                <p class="section-subtitle">Nega aynan BotGenerator?</p>
+                <p class="section-description">Minglab foydalanuvchilar bizni tanlaganiga sabab bor</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Tez yaratish</h3>
+                    <p>Buyurtmalar bir necha daqiqada bajariladi</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Xavfsiz</h3>
+                    <p>100% xavfsiz va sifatli xizmatlar</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">💬</div>
+                    <h3>24/7 Yordam</h3>
+                    <p>Doimo yordam berishga tayyormiz</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">💰</div>
+                    <h3>Hamyonbop narxlar</h3>
+                    <p>Eng hamyonbop narxlar kafolatlangan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Eng yaxshi narxlar</h2>
+                <p class="section-subtitle">Hamyonbop narxlar</p>
+                <p class="section-description">Eng past narxlar bilan sifatli xizmat</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-icon">🌐</div>
+                    <h3>HTML Sayt</h3>
+                    <p>Oddiy HTML saytlar</p>
+                    <div class="pricing-price">Bepul</div>
+                    <a href="https://t.me/helpdev_ai_bot" class="btn-pricing">Buyurtma berish</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="popular-badge">🔥 Mashhur</div>
+                    <div class="pricing-icon">💼</div>
+                    <h3>Portfolio Sayt</h3>
+                    <p>Professional portfolio</p>
+                    <div class="pricing-price">Bepul</div>
+                    <a href="https://t.me/helpdev_ai_bot" class="btn-pricing">Buyurtma berish</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-icon">💻</div>
+                    <h3>Kod namunalari</h3>
+                    <p>Python, JavaScript, Java</p>
+                    <div class="pricing-price">Bepul</div>
+                    <a href="https://t.me/helpdev_ai_bot" class="btn-pricing">Buyurtma berish</a>
+                </div>
+            </div>
+
+            <div class="cta-center">
+                <a href="https://t.me/helpdev_ai_bot" class="btn-outline-large">Barcha narxlarni ko'rish</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Section -->
+    <section class="premium">
+        <div class="container">
+            <div class="premium-content">
+                <div class="premium-left">
+                    <div class="section-badge">Premium xizmat</div>
+                    <h2 class="premium-title">Professional Saytlar</h2>
+                    <p class="premium-description">
+                        Professional dizayn va funksiyalar bilan to'liq saytlar yarating.
+                        Do'stlaringizga ulashing yoki o'zingiz uchun ishlatishingiz mumkin.
+                    </p>
+                    <div class="premium-features">
+                        <div class="premium-feature">
+                            <span class="check-icon">✓</span>
+                            <span>Professional dizayn</span>
+                        </div>
+                        <div class="premium-feature">
+                            <span class="check-icon">✓</span>
+                            <span>Chiroyli saytlar tanlovi</span>
+                        </div>
+                        <div class="premium-feature">
+                            <span class="check-icon">✓</span>
+                            <span>Tez yaratish</span>
+                        </div>
+                    </div>
+                    <a href="https://t.me/helpdev_ai_bot" class="btn-hero">Sayt yaratishga o'tish</a>
+                </div>
+                <div class="premium-right">
+                    <div class="premium-image">
+                        <div class="premium-glow"></div>
+                        <div class="premium-icon">🎨</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -177,11 +292,124 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 BotGenerator. Barcha huquqlar himoyalangan.</p>
-            </div>
         </div>
     </footer>
+
+    <script>
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        const particles = [];
+        const particleCount = 100;
+        const mouse = { x: null, y: null, radius: 150 };
+
+        for (let i = 0; i < particleCount; i++) {
+            particles.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                vx: (Math.random() - 0.5) * 0.5,
+                vy: (Math.random() - 0.5) * 0.5,
+                radius: Math.random() * 2 + 1
+            });
+        }
+
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY + window.scrollY;
+        });
+
+        window.addEventListener('mouseleave', () => {
+            mouse.x = null;
+            mouse.y = null;
+        });
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            particles.forEach((particle, i) => {
+                particle.x += particle.vx;
+                particle.y += particle.vy;
+
+                if (particle.x < 0 || particle.x > canvas.width) particle.vx *= -1;
+                if (particle.y < 0 || particle.y > canvas.height) particle.vy *= -1;
+
+                ctx.fillStyle = 'rgba(139, 92, 246, 0.5)';
+                ctx.beginPath();
+                ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+                ctx.fill();
+
+                if (mouse.x && mouse.y) {
+                    const dx = mouse.x - particle.x;
+                    const dy = mouse.y - particle.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    if (distance < mouse.radius) {
+                        ctx.strokeStyle = `rgba(139, 92, 246, ${1 - distance / mouse.radius})`;
+                        ctx.lineWidth = 2;
+                        ctx.beginPath();
+                        ctx.moveTo(particle.x, particle.y);
+                        ctx.lineTo(mouse.x, mouse.y);
+                        ctx.stroke();
+                    }
+                }
+
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[j].x - particle.x;
+                    const dy = particles[j].y - particle.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    if (distance < 100) {
+                        ctx.strokeStyle = `rgba(139, 92, 246, ${0.2 - distance / 500})`;
+                        ctx.lineWidth = 1;
+                        ctx.beginPath();
+                        ctx.moveTo(particle.x, particle.y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.stroke();
+                    }
+                }
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+        // Card 3D tilt effect - follow mouse movement
+        const cards = document.querySelectorAll('.step-card, .pricing-card, .feature-box');
+
+        cards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+
+                const rotateX = (y - centerY) / 10;
+                const rotateY = (centerX - x) / 10;
+
+                const glowX = (x / rect.width) * 100;
+                const glowY = (y / rect.height) * 100;
+
+                card.style.setProperty('--mouse-x', `${glowX}%`);
+                card.style.setProperty('--mouse-y', `${glowY}%`);
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px) scale(1.05)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0) scale(1)';
+            });
+        });
+    </script>
 </body>
 
 </html>
