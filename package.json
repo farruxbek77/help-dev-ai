@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Help Developer - Professional Website",
     "scripts": {
-        "start": "npx serve -s . -l 10000"
+        "start": "npx serve -s web -l 10000"
     },
     "dependencies": {
         "serve": "^14.2.1"
