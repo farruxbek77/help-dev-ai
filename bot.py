@@ -460,6 +460,9 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     """Bot ishga tushirish - Pro Max Edition"""
+    from keep_alive import keep_alive
+    keep_alive()  # Bot uxlamasligi uchun
+    
     app = Application.builder().token(BOT_TOKEN).build()
     
     # /create_site conversation handler - PRO MAX

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.log$
+
+Sitemap: https://helpdeveloper.uz/sitemap.xml
+
+# Help Developer - Professional sayt va kod yaratish xizmati
+# Telegram bot: @helpdev_ai_bot

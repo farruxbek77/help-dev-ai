@@ -1,0 +1,130 @@
+# 📁 Replit'da Yaratish Kerak Bo'lgan Fayllar
+
+## Qadamlar:
+
+1. Replit'da chap tarafda "Files" bo'limida "+" belgisini bosing
+2. Har bir fayl nomini yozing
+3. Pastdagi kodni ko'chiring va Replit'ga joylashtiring
+
+---
+
+## 1️⃣ FAYL: .env
+
+**Fayl nomi:** .env
+
+**Kod:**
+```
+TELEGRAM_BOT_TOKEN=8307658680:AAG5RbMpRtyx22daOi8Iw5d78nqKJe3mzV0
+```
+
+---
+
+## 2️⃣ FAYL: requirements.txt
+
+**Fayl nomi:** requirements.txt
+
+**Kod:**
+```
+python-telegram-bot==21.0
+python-dotenv==1.0.0
+flask==3.0.0
+```
+
+---
+
+## 3️⃣ FAYL: keep_alive.py
+
+**Fayl nomi:** keep_alive.py
+
+**Kod:**
+```python
+from flask import Flask
+from threading import Thread
+
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "🚀 Bot 24/7 ishlayapti! ✅"
+
+def run():
+    app.run(host='0.0.0.0', port=8080)
+
+def keep_alive():
+    t = Thread(target=run)
+    t.start()
+```
+
+---
+
+## 4️⃣ FAYL: bot.py
+
+**Fayl nomi:** bot.py
+
+**Eslatma:** Bu faylni Replit avtomatik yaratadi. Uni o'chirib, yangi yarating.
+
+**Kod:** Sizning bot.py faylingizni ko'chiring (C:\Users\555\Desktop\Bot\bot.py)
+
+**MUHIM:** bot.py'ning oxirgi qismiga quyidagini qo'shing:
+
+```python
+from keep_alive import keep_alive
+
+def main():
+    """Bot ishga tushirish - Pro Max Edition"""
+    keep_alive()  # ← BU QATORNI QO'SHING!
+    
+    app = Application.builder().token(BOT_TOKEN).build()
+    # ... qolgan kod
+```
+
+---
+
+## 5️⃣ FAYL: site_generator.py
+
+**Fayl nomi:** site_generator.py
+
+**Kod:** Sizning site_generator.py faylingizni ko'chiring (C:\Users\555\Desktop\Bot\site_generator.py)
+
+---
+
+## ✅ Tayyor!
+
+Barcha fayllar yaratilgandan keyin:
+
+1. Replit'da yuqorida **"Run"** tugmasini bosing
+2. Kutubxonalar avtomatik o'rnatiladi (1-2 daqiqa)
+3. Bot ishga tushadi!
+
+---
+
+## 🔗 UptimeRobot Sozlash
+
+Bot uxlamasligi uchun:
+
+1. **uptimerobot.com'ga kiring**
+2. **"Add New Monitor"** bosing
+3. **Monitor Type:** HTTP(s)
+4. **Friendly Name:** Telegram Bot
+5. **URL:** Replit'dagi bot URL'i (yuqorida ko'rsatiladi, masalan: https://telegram-bot-24-7.username.repl.co)
+6. **Monitoring Interval:** 5 minutes
+7. **"Create Monitor"** bosing
+
+**Tayyor! Bot har 5 daqiqada ping oladi va uxlamaydi!** ✅
+
+---
+
+## 🧪 Test Qilish
+
+1. Telegram'da botingizni oching
+2. /start yuboring
+3. Bot javob berishi kerak
+4. Replit'ni yoping
+5. Yana /start yuboring
+6. Bot javob bersa - muvaffaqiyat! 🎉
+
+---
+
+## 📞 Yordam Kerakmi?
+
+Agar biror narsa tushunarsiz bo'lsa, menga yozing!

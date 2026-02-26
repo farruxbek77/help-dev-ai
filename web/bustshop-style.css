@@ -24,6 +24,51 @@ body {
     overflow-x: hidden;
 }
 
+/* Scroll Animations */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animate.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-animate-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animate-left.animate-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-animate-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animate-right.animate-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-animate-scale {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animate-scale.animate-in {
+    opacity: 1;
+    transform: scale(1);
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -828,37 +873,112 @@ body {
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .badge {
+        font-size: 0.75rem;
+        padding: 6px 12px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
     }
 
     .character-image {
-        width: 350px;
-        height: 350px;
+        width: 280px;
+        height: 280px;
     }
 
     .nav {
         display: none;
     }
 
+    .header-buttons {
+        display: none;
+    }
+
     .stats-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.95rem;
     }
 
     .steps-grid {
         grid-template-columns: 1fr;
     }
 
+    .step-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        top: -20px;
+        right: 15px;
+    }
+
+    .step-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .step-card:nth-child(1) .step-icon::before,
+    .step-card:nth-child(2) .step-icon::before,
+    .step-card:nth-child(3) .step-icon::before {
+        font-size: 2rem;
+    }
+
     .features-grid {
         grid-template-columns: 1fr;
+    }
+
+    .feature-icon {
+        font-size: 2.5rem;
+    }
+
+    .feature-box {
+        padding: 1.5rem;
     }
 
     .pricing-grid {
         grid-template-columns: 1fr;
     }
 
+    .pricing-icon {
+        font-size: 3rem;
+    }
+
+    .pricing-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .popular-badge {
+        font-size: 0.75rem;
+        padding: 5px 12px;
+        top: -15px;
+        right: 15px;
+    }
+
     .premium-content {
         grid-template-columns: 1fr;
+    }
+
+    .premium-icon {
+        font-size: 10rem;
     }
 
     .footer-content {
@@ -867,5 +987,78 @@ body {
 
     .step-separator {
         display: none;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .btn-hero {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+
+    .btn-pricing,
+    .btn-outline-large {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .marquee-content span {
+        font-size: 1rem;
+    }
+
+    .cta-center {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Planshet uchun (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .character-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .stat-number {
+        font-size: 3rem;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pricing-icon {
+        font-size: 3.5rem;
+    }
+
+    .step-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .step-card:nth-child(1) .step-icon::before,
+    .step-card:nth-child(2) .step-icon::before,
+    .step-card:nth-child(3) .step-icon::before {
+        font-size: 2.5rem;
+    }
+
+    .premium-icon {
+        font-size: 12rem;
     }
 }
